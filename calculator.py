@@ -15,7 +15,8 @@ print("Welcome to our group calculator project!")
 num1= float(input("Enter the first number:"))
 num2= float(input ("Enter the second number:"))
 multiplication_result= num1 * num2
-print("The result of multiplication is: ",multiplication_result
+print("The result of multiplication is: ",multiplication_result)
+
 
 
 
