@@ -2,11 +2,17 @@ print("Welcome to our group calculator project!")
 
 #===== Addition function here =====
 
-def add_numbers(a, b):
-    # a: first number
-    # b: second number
-    # returns: the sum of a and b
-    return a + b
+# Addition function using x and y
+
+# Get input from the user
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+
+# Calculate the sum
+sum_result = x + y
+
+# Print the result
+print("The sum is:" ,sum_result)
 
 
 
@@ -31,7 +37,15 @@ print("The result of multiplication is: ",multiplication_result)
 
 
 #==== Division function here =====
+# Define two integers
+x = 10
+y = 2
 
+# Perform division
+result = x / y  # divide x by y to get the quotient
+
+# Print the result
+print("The result of dividing", x, "by", y,"is:",result)
 
 
 
@@ -83,7 +97,7 @@ def perform_with_validation(op, a, b):
         raise ValueError("Invalid operation. Use one of: +, -, *, /.")
 
 
-# Optional: interactive input helpers
+
 def read_number(prompt):
     """
     Loop until the user types a valid number.
