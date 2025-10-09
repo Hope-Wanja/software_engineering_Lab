@@ -1,6 +1,6 @@
 print("Welcome to our group calculator project!")
 
-#==== Addition function here =====
+#===== Addition function here =====
 
 def add_numbers(a, b):
     # a: first number
