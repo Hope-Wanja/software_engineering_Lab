@@ -20,7 +20,7 @@ subtraction_result = num1 - num2
 print(num1, "-", num2, "=", subtraction_result)
 
 
-#==== Multiplication function here =====
+#==== Multiplication function here ======
 #multiplication of two numbers
 num1= float(input("Enter the first number:"))
 num2= float(input ("Enter the second number:"))
